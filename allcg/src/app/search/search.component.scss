@@ -1,0 +1,92 @@
+.header {
+  display: grid;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 12px;
+  font-family: cursive;
+}
+
+.gsc-control-cse {
+  padding: 0px !important;
+  border-width: 0px !important;
+}
+
+.gsc-search-box .gsc-input {
+  padding: 0px 4px 0px 6px !important;
+}
+
+#gsc-iw-id1 {
+  height: auto !important;
+  padding: 0px !important;
+  border-width: 0px !important;
+  box-shadow: none !important;
+}
+
+#gs_tti50 {
+  padding: 0px !important;
+}
+
+#gsc-i-id1 {
+  height: 33px !important;
+  padding: 0px !important;
+  background: none !important;
+  text-indent: 0px !important;
+}
+
+button.gsc-search-button {
+  display: block;
+  width: 13px !important;
+  height: 13px !important;
+  border-width: 0px !important;
+  margin: 0px !important;
+  padding: 10px 6px 10px 13px !important;
+  outline: none;
+  cursor: pointer;
+  box-shadow: none !important;
+  box-sizing: content-box !important;
+}
+
+.gsc-control-cse,
+#gsc-iw-id1 {
+  background-color: transparent !important;
+}
+
+#search-box {
+  width: 400px;
+  height: 33px;
+  margin: 0 auto;
+  background-color: #0085cc;
+  border-radius: 2px;
+  padding: 5px 9px;
+}
+
+button.gsc-search-button {
+  border-left: 1px solid #0173af !important;
+  background-color: transparent !important;
+}
+
+#gsc-i-id1 {
+  color: #fff;
+}
+
+.gsc-results-wrapper-visible {
+  left: 0px !important;
+  position: absolute !important;
+}
+
+.gsc-tabsArea {
+  background-color: transparent;
+  border: none !important;
+}
+
+.gsc-tabHeader {
+  background-color: transparent !important;
+}

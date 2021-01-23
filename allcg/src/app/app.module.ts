@@ -4,9 +4,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './modules/material/material.module';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, SearchComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
