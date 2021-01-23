@@ -1,6 +1,13 @@
+.div-header {
+  text-align: -webkit-center;
+}
+
 .header {
   display: grid;
   text-align: center;
+  user-select: none;
+  cursor: pointer;
+  width: fit-content;
 }
 
 .title {
@@ -82,11 +89,29 @@ button.gsc-search-button {
   position: absolute !important;
 }
 
-.gsc-tabsArea {
-  background-color: transparent;
+.gsc-above-wrapper-area {
   border: none !important;
 }
 
-.gsc-tabHeader {
-  background-color: transparent !important;
+.gs-imageResult .gs-image-box .gs-image {
+  max-width: 500px;
+}
+
+.gsc-results .gsc-cursor-box {
+  text-align: center;
+  font-size: 16px;
+}
+
+.gsc-tabsArea {
+  border: none !important;
+}
+
+.gsc-tabHeader.gsc-tabhActive,
+.gsc-refinementHeader.gsc-refinementhActive {
+  outline: none !important;
+}
+
+.gsc-tabHeader.gsc-tabhInactive,
+.gsc-refinementHeader.gsc-refinementhInactive {
+  outline: none !important;
 }

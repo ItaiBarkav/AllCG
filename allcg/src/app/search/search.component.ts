@@ -8,4 +8,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
 })
 export class SearchComponent {
   constructor() {}
+
+  refresh(): void {
+    window.location.reload();
+  }
 }

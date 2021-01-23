@@ -1,12 +1,14 @@
-<div class="header">
-  <span class="title">AllCG</span>
-  <span class="sub-title">Computer Graphic Search Engine</span>
+<div class="div-header">
+  <span class="header" (click)="refresh()">
+    <span class="title">AllCG</span>
+    <span class="sub-title">Computer Graphics Search Engine</span>
+  </span>
 </div>
 <div fxLayoutAlign="center center" fxLayoutAlign.lt-sm="center end">
   <div
     id="search-box"
     class="gcse-search"
     data-autoCompleteMaxCompletions="5"
-    data-autoCompleteMatchType="any"
+    data-disableWebSearch="true"
   ></div>
 </div>
